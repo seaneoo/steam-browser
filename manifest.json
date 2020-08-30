@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "steam-browser@seano.dev"
+    }
+  },
+
+  "name": "Steam Browser",
+  "version": "1.0.0",
+  "description": "Directly open pages from Steam on your browser in the desktop app with the single click of a button.",
+  "author": "Sean O'Connor",
+
+  "permissions": [
+    "*://store.steampowered.com/*",
+    "*://steamcommunity.com/*",
+    "tabs"
+  ],
+  "background": { "scripts": ["bundle.min.js"] },
+  "browser_action": {
+    "default_icon": {
+      "16": "/assets/steam16.png",
+      "32": "/assets/steam32.png"
+    }
+  }
+}
