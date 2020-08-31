@@ -1,4 +1,4 @@
 /node_modules
 /web-ext-artifacts
-bundle.min.js
+steam-browser.min.js
 package-lock.json
