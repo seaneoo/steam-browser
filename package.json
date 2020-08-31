@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "package": "webpack -p",
-    "run": "web-ext run -t firefox-desktop --start-url https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/",
+    "run": "npm run-script package && web-ext run -t firefox-desktop --browser-console --start-url https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/",
     "build": "web-ext build"
   },
   "devDependencies": {
