@@ -1,6 +1,6 @@
 {
   "name": "steam-browser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "package": "webpack -p",
     "run": "npm run-script package && web-ext run -t firefox-desktop --browser-console --start-url https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/",

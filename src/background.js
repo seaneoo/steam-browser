@@ -14,7 +14,7 @@ runtime.browserAction.onClicked.addListener(() => {
   }
 });
 
-runtime.tabs.onUpdated.addListener(() => {
+function query() {
   runtime.tabs.query(
     {
       active: true,
@@ -33,4 +33,12 @@ runtime.tabs.onUpdated.addListener(() => {
       });
     }
   );
+}
+
+runtime.tabs.onUpdated.addListener(() => {
+  query();
+});
+
+runtime.tabs.onActivated.addListener(() => {
+  query();
 });

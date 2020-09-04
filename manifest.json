@@ -7,15 +7,11 @@
   },
 
   "name": "Steam Browser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Directly open pages from Steam on your browser in the desktop app with the single click of a button.",
   "author": "Sean O'Connor",
 
-  "permissions": [
-    "*://store.steampowered.com/*",
-    "*://steamcommunity.com/*",
-    "tabs"
-  ],
+  "permissions": ["tabs"],
   "background": { "scripts": ["steam-browser.min.js"] },
   "browser_action": {
     "default_icon": {
