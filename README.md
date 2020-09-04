@@ -1,6 +1,6 @@
 # Steam Browser
 
-Directly open pages from Steam on your browser in the desktop app with the single click of a button.
+Directly open pages from Steam on your browser in the desktop app with the single click of a button. Get it on [Firefox](https://addons.mozilla.org/en-US/firefox/addon/steam-browser/) or [Chrome (or any Chromium browser)](https://chrome.google.com/webstore/detail/steam-browser/jifageooanpmckkkbpgcbdalfcjlpdcf?hl=en).
 
 ## Running locally
 
